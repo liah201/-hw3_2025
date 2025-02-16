@@ -176,12 +176,14 @@ nav {
      .method, .contact, .about-image, .clients-image {
           grid-column: 2 / 4 ;
      }
+
+     .text-block {
+          max-height: 250px;
+          display: block;
+          overflow: auto;
+     }
+      
 }
 
 
 /* Step 13:Write the selector/rule property to update the .text-block class */
-.text-block {
-     max-height: 250px;
-     overflow: auto;
-}
- 
