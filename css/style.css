@@ -17,7 +17,7 @@ nav a:focus {
      top: -40px;
      left: 0;
      background: #000;
-     color: #fff;
+     color: #000000;
      padding: 10px;
      text-decoration: none;
      z-index: 100;
@@ -25,12 +25,11 @@ nav a:focus {
  
 .skip a:focus {
      top: 20px;
-     border: 2px solid #fff;
 }
 
 /* Step 3: Write selector/rule property to style all elements when in focus*/
 *:focus {
-     outline: 2px solid blue;
+     outline: 2px solid rgb(0, 0, 0);
 }
  
 
@@ -76,6 +75,7 @@ first div in the grid  and place it in the grid. */
      grid-column: 2;
      grid-row: 2;
      align-self: center;
+
      overflow: auto;
      height: auto;
 }
